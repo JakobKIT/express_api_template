@@ -34,5 +34,4 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT,
-  // eslint-disable-next-line
   console.log(`Server up and running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold));
